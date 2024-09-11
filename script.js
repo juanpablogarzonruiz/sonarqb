@@ -21,7 +21,7 @@ function procesar(){
       body: raw,
       redirect: "follow"
     };
-    fetch("http://localhost:6500/estudiantes/", requestOptions)
+    fetch("https://tallerarquitectura.netlify.app:6500/estudiantes/", requestOptions)
       .then((response) => response.text())
       .then((result) => cargar(result))
       //.then((result) => console.log(result))
