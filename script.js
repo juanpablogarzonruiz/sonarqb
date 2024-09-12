@@ -6,7 +6,7 @@ function cargar(resultado){
 }
 
 function procesar(){
-
+/**
     const myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
         preventDefault();
@@ -24,7 +24,7 @@ function procesar(){
             .then((result) => cargar(result))
             .catch((error) => console.error(error));
 
-/**
+**/
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
 
@@ -43,5 +43,5 @@ function procesar(){
         .then((response) => response.text())
         .then((result) => console.log(result))
         .catch((error) => console.error(error));
-**/
+
 }
