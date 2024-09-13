@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require("cors");
 const app = express();
-const estudiantesroutes = require("./estudiantesroutes.js");
+const estudiantesroutes = require("./backend/routes/estudiantesroutes.js");
 
 app.use(express.json());
 app.use(cors());
